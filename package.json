@@ -1,0 +1,20 @@
+{
+  "name": "md2notion",
+  "version": "0.1.1",
+  "type": "module",
+  "license": "MIT",
+  "main": "bin/index.js",
+  "bin": {
+    "md2notion": "./bin/index.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^1.0.1",
+    "@tryfabric/martian": "^1.2.4",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "yargs": "^17.6.2"
+  },
+  "scripts": {
+    "start": "node ./mdToNotion"
+  }
+}
